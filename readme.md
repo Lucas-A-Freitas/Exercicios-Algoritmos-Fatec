@@ -9,19 +9,33 @@ Algoritmos e Lógica de Programação
 Prof. Eduardo Tavares
 1. Faça o teste de mesa para o seguinte programa.
 let k
+
 let j = 3
+
 a = 0
+
 k = j == 3;
+
 j = 2 * k - 7 <= j - 8;
+
 a = k % 2 > j && a != 3;
+
 k = !(a - j);
+
 a = !a + k;
+
 a *= 3 + 6 % 3;
+
 k += j < 5 && a != 0 && k > 5 || j < a;
+
 j = !a * !0;
+
 a = !((!j == 1 || k < 2) && a < 3);
+
 k = a / a && !j && a || k * 3 > !!j;
+
 j = a * 3 + k % 2 - 3 / (0 || a > j);
+
 Teste de mesa
 
 2. Faça um programa que leia um número inteiro X. Se o número for maior ou igual a 100 emitir
