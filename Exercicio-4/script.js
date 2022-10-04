@@ -1,9 +1,8 @@
-function calcular()
-{
+function calcular() {
     var n1 = Number(document.getElementById("numero").value)
-    if (n1 % 2 == 0){
+    if (n1 % 2 == 0) {
         alert("O número é par")
-    }else{
+    } else {
         alert("O número é ímpar")
     }
 }

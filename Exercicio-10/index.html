@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 10</title>
+    <script src="script.js"></script>
 </head>
+
 <body>
-    /*
+    <!--
     Analise a seguinte informação:
     Um posto está vendendo combustíveis com a seguinte tabela de descontos:
     
@@ -23,13 +26,14 @@
     (codificado da seguinte forma: 1-álcool, 2-gasolina), calcule e imprima o valor a ser pago pelo
     cliente sabendo-se que o preço do litro da gasolina é R$ 4.10 e o preço do litro do álcool é R$
     2.70
-    */
+    -->
     <form>
         Digite 1 para Álcool ou 2 para Gasolina <br>
-        <input type="number" name="escolha" id="escolha"><br>
+        <input type="number" placeholder="Combustivel" id="escolha"><br>
         Informe a quantidade a ser abastecida <br>
-        <input type="number" name="litro" id="litro">
-        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="number" placeholder="litro" id="litro">
+        <button type="button" onclick="calc()">Enviar</button>
     </form>
 </body>
+
 </html>
